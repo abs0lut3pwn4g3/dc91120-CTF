@@ -1,0 +1,10 @@
+version: "3"
+
+services:
+  pages:
+    build: .
+    ports:
+      - 1010:80
+    restart: always
+    # volumes:
+    #   - ./app/:/var/www/html

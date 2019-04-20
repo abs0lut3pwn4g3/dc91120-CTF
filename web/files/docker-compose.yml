@@ -1,0 +1,11 @@
+version: "3"
+
+services:
+  files:
+    build: .
+    ports:
+      - 2020:80
+    restart: always
+    container_name: file_vault
+    # volumes:
+    #   - ./app/:/var/www/html
